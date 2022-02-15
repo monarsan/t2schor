@@ -1,9 +1,9 @@
 {
-    "python.autoComplete.extraPaths": [
-        "/home/monar/project/t2schor/src/Main/Student.py"
-    ],
+    // "python.autoComplete.extraPaths": [
+    //     "./src/Main/Student.py"
+    // ],
     "python.analysis.extraPaths": [
-        "/home/monar/project/t2schor/src/Main"
+        "./src/Main"
     ],
 
 

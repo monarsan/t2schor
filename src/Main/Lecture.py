@@ -1,5 +1,5 @@
-import Class
+from Class import Class
 
-class Lecture:
+class lecture(Class):
     def __init__(self, contents) -> None:
         super(Class).__init__(self, contents)
