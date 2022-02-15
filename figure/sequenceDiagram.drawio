@@ -1,0 +1,155 @@
+<mxfile host="65bd71144e">
+    <diagram id="xy-bYJnNynj-DtnCWnVm" name="ページ1">
+        <mxGraphModel dx="1000" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Teacher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="100" height="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="2" vertex="1">
+                    <mxGeometry x="45" y="60" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="課題毎の平均点を習得" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="2" target="3" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="60" y="79" as="sourcePoint"/>
+                        <mxPoint x="120" y="79" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="2" vertex="1">
+                    <mxGeometry x="45" y="240" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="2" vertex="1">
+                    <mxGeometry x="45" y="580" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="課題関連システム" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="40" width="100" height="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3" vertex="1">
+                    <mxGeometry x="45" y="80" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Assignment" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="40" width="100" height="660" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="4" vertex="1">
+                    <mxGeometry x="45" y="162" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="呼び出し" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="4" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="55" y="201.9999999999999" as="sourcePoint"/>
+                        <mxPoint x="204.5" y="201.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="提出ボックス" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="40" width="100" height="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="呼び出し" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="5" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="-101.00000000000011" y="120" as="sourcePoint"/>
+                        <mxPoint x="48.5" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="5" vertex="1">
+                    <mxGeometry x="44" y="121" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Cource" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="40" width="100" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6" vertex="1">
+                    <mxGeometry x="45" y="540" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="学生毎の平均点を計算" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;entryX=1;entryY=0.925;entryDx=0;entryDy=0;entryPerimeter=0;" parent="6" target="46" edge="1">
+                    <mxGeometry x="0.5833" width="60" relative="1" as="geometry">
+                        <mxPoint x="55" y="546.9999999999999" as="sourcePoint"/>
+                        <mxPoint x="-565" y="577" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="547"/>
+                            <mxPoint x="100" y="577"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Lecture" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="40" width="100" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="8" vertex="1">
+                    <mxGeometry x="45" y="203" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="課題毎の平均点を計算" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;entryX=1;entryY=0.925;entryDx=0;entryDy=0;entryPerimeter=0;" parent="8" target="21" edge="1">
+                    <mxGeometry x="0.5833" width="60" relative="1" as="geometry">
+                        <mxPoint x="55" y="210" as="sourcePoint"/>
+                        <mxPoint x="115" y="280" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="210"/>
+                            <mxPoint x="100" y="240"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="8" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="45" y="243" as="sourcePoint"/>
+                        <mxPoint x="-35" y="243" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="8" vertex="1">
+                    <mxGeometry x="45" y="520" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="呼び出し" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" target="17" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="414" y="201.9999999999999" as="sourcePoint"/>
+                        <mxPoint x="563.5" y="201.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+                    <mxGeometry x="85" y="420" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="学生毎の平均点を習得" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="100" y="439" as="sourcePoint"/>
+                        <mxPoint x="249.5" y="439" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+                    <mxGeometry x="245" y="440" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="522" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="呼び出し" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="575" y="561.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="724.5" y="561.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="呼び出し" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="259" y="480" as="sourcePoint"/>
+                        <mxPoint x="408.5" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+                    <mxGeometry x="404" y="481" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="889.5" y="619" as="sourcePoint"/>
+                        <mxPoint x="89.66666666666652" y="619" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="呼び出し" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;entryX=0.5;entryY=0.279;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="414" y="521.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="570" y="521.82" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="呼び出し" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="1" edge="1">
+                    <mxGeometry width="60" relative="1" as="geometry">
+                        <mxPoint x="740" y="583.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="889.5" y="583.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

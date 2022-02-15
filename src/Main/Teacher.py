@@ -1,5 +1,4 @@
-import User
-
+import User, Student, Lecture
 class Teacher:
     def __init__(self, name:str, id:int) ->None:
         super(User).__init__(self, id)

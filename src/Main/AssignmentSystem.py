@@ -1,7 +1,3 @@
-from re import A
-
-from httplib2 import RETRIES
-
 
 class AssigmentSystem:
     def __init__(self, assignmentBox) -> None:
