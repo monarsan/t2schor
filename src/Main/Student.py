@@ -1,11 +1,10 @@
-import User, AssignmentBox
+from User import user#, AssignmentBox
 
-class Student:
+class student(user):
     def __init__(self, name:str, id:int ) ->None:
-        super(User).__init__(self, id)
+        super().__init__(id)
         self.name = name
     
-    def hand_out(file :str, assignmentBox)-> None:
+    def hand_out(self,file :str, assignmentBox)-> None:
         assignmentBox.hand_out(file)
-
-    
+        print("hand_out_done")

@@ -1,5 +1,5 @@
 import Lecture
 
-class User:
+class user:
     def __init__(self, id:int) ->None:
         self.id = id
